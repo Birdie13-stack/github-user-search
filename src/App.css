@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+body {
+  background-color: #f6f8ff;
+  font-family: "Space Mono", monospace;
+}
+
+.homepage {
+  height: 500px;
+  width: 730px;
+  margin: 20px auto;
+}
+
+input[type="search"] {
+  width: 730px;
+  height: 69px;
+  border-radius: 15px;
+  background: #fefefe;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+}
+
+.profile-card {
+  width: 730px;
+  height: 419px;
+  border-radius: 15px;
+  background: #fefefe;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+}
+
+.profile-text {
+  color: #4b6a9b;
+}
+
+.time {
+  display: inline;
+  float: right;
+}
+
+.profile-text h2 {
+  color: #2b3442;
+}
+
+.main-img {
+  vertical-align: bottom;
+  margin-right: -500px;
+}
+
+.handle {
+  color: #0079ff;
+}
+
+.stats {
+  width: 480px;
+  height: 85px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 20px;
+  /* padding: 0 10px; */
+  /* align-items: flex-start; */
+  border-radius: 10px;
+  background: #f6f8ff;
+}
+
+.numbers {
+  color: #2b3442;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+
+.info div {
+  display: flex;
+  gap: 10px;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  /*width: 200px;*/
+}
